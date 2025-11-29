@@ -6,7 +6,7 @@ public class Main {
         BudyAllocator allocator = new BudyAllocator(totalMemory);
 
         InputReader reader = new InputReader();
-        ProgramEntry[] programs = reader.readFile("programas.txt");
+        ProgramEntry[] programs = reader.readFile("programas2.txt");
 
 
         for (int i = 0; i < programs.length; i++) {
